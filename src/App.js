@@ -1,18 +1,15 @@
-import Topbar from "./components/topbar/Topbar";
-import Sidebar from "./components/sidebar/Sidebar";
-import "./app.css"
-import Home from "./pages/home/Home";
+
+import './'; // Import CSS file
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Main from './components/Main/Main';
 
 function App() {
   return (
-    <div className="App">
-       <Topbar />
-       <div className="container">
-       <Sidebar />
-       <Home/>
-        {/* <div className="otherPages">ds</div>    */}
-      </div>
-      
+    <div className="wrapper">
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }

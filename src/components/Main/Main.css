@@ -1,0 +1,61 @@
+.main{
+    padding: 10px;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.productList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.productBox{
+    flex: 0 0 25%;
+}
+.productBoxInner{
+    padding: 15px;
+    margin: 0 15px;
+    border: solid 1px #eee;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.productBoxImage{
+    img{
+        max-width: 100%;
+    }
+}
+
+.cardContaner {
+    flex-wrap: wrap;
+    align-content: stretch;
+    display: flex;
+}
+
+.card {
+    width: 32%;
+    display: flex;
+    gap: 5px;
+    margin: 5px;
+   
+}
+
+.card img {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    max-width: 90%;
+    object-fit: contain;
+}
+
+.cardImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    height: 300px;
+
+}

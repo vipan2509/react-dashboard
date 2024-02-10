@@ -1,0 +1,10 @@
+npm .wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: solid 1px #eee;
+}
+.priceInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
